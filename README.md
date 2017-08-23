@@ -22,8 +22,7 @@ pip install pyyaml
 
 ## Configuration
 
-You need to create a file called 'config.yml' on the same folder level of the python script
-A sample configuration file:
+You need to create a file called 'config.yml' on the same folder level of the python script, a sample configuration:
 
 ```
 global:
@@ -49,11 +48,18 @@ http_sessions:
       attributes: [active-sessions]
     - app: app_name_1
       attributes: [active-sessions]
+
+memory_heap:
+    - attributes: [max, used]
+
 ```
+
+## 
 
 ## Authors
 
 * **Juan Damasceno** - (https://github.com/jdamasceno)
+* Inspired in https://github.com/aparnachaudhary/nagios-plugin-jbossas7
 
 ## License
 
