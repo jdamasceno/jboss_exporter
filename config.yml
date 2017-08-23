@@ -1,0 +1,22 @@
+# A sample config yaml 
+
+global:
+   jboss_host: jboss_host
+   jboss_port: 9990
+   jboss_user: jboss_mgnt_user
+   jboss_password: jboss_mgnt_password
+
+datasources:
+    - name: datasource_1
+      attributes: [InUseCount, ActiveCount]
+    - name: datasource_2
+      attributes: [InUseCount, ActiveCount]
+
+http_sessions:
+    - app: app_name_1
+      attributes: [active-sessions]
+    - app: app_name_2
+      attributes: [active-sessions]
+
+memory_heap:
+    - attributes: [max, used]
