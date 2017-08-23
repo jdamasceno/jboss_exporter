@@ -54,6 +54,14 @@ memory_heap:
 
 ```
 
+## Running
+
+```
+python jboss_exporter.py
+```
+
+You can access via browser on http://localhost:9091/metrics
+
 ## 
 
 ## Authors
